@@ -30,7 +30,7 @@ import { getMetadata, getUri } from './lib/helpers'
 export const revalidate = 20
 
 export const metadata = getMetadata({
-  title: "Hi! I'm Thi",
+  title: "Hi! I'm Duck",
   description: me.quote,
   images: [
     {
