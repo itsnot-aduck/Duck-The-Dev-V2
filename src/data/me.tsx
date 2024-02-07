@@ -1,5 +1,5 @@
 export const me = {
-  name: 'Anh-Thi Dinh',
+  name: 'Duc HoangMinh',
   email: 'hoangduc1662002@gmail.com',
   website: 'https://duckthedev.com',
   quote: 'Ichigo, Ichie',
