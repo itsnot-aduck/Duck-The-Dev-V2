@@ -46,7 +46,6 @@ export default async function Home() {
   const numPosts = 10
   const numProjects = 6
   const numBookmarks = 5
-  const numTools = 6
   const numBlogPosts = 4
 
   const pinnedPosts = await getPosts({
