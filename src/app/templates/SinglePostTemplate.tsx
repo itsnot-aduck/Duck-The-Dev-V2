@@ -48,14 +48,14 @@ export default function SinglePostTemplate(props: SinglePostTemplateProps) {
               <PostBody
                 recordMap={props.recordMap}
                 blockOptions={{
-                  siteDomain: 'dinhanhthi.com',
-                  labelTocTitle: 'In this note',
+                  siteDomain: 'duckthedev.com',
+                  labelTocTitle: 'Table of contents',
                   blockCodeCopiedText: 'Copied',
                   blockCodeCopyText: 'Copy',
                   headingScrollMarginTopClass: 'scroll-mt-[70px]',
                   minNumHeadingsToShowToc: 4,
                   maxDaysWinthin: 7,
-                  expandTocOnMobile: false
+                  expandTocOnMobile: false,
                 }}
                 useSimpleImage={true}
                 showUpdatedIndicator={true}
@@ -76,7 +76,7 @@ export default function SinglePostTemplate(props: SinglePostTemplateProps) {
                 defaultOpenToc={true}
                 recordMap={props.recordMap}
                 tocs={tocs}
-                labelTocTitle="In this note"
+                labelTocTitle="Table of contents"
               />
             </PostAside>
           </aside>
