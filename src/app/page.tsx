@@ -47,7 +47,6 @@ export default async function Home() {
   const numProjects = 6
   const numBookmarks = 5
   const numBlogPosts = 4
-
   const pinnedPosts = await getPosts({
     pageSize: numPinnedPosts,
     filter: {
