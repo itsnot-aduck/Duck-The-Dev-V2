@@ -23,8 +23,7 @@ import {
   getPosts,
   getTopics,
   getUnofficialBookmarks,
-  getUnofficialProjects,
-  getUnofficialTools
+  getUnofficialProjects
 } from './lib/fetcher'
 import { getMetadata, getUri } from './lib/helpers'
 
@@ -47,7 +46,6 @@ export default async function Home() {
   const numPosts = 10
   const numProjects = 6
   const numBookmarks = 5
-  const numTools = 6
   const numBlogPosts = 4
 
   const pinnedPosts = await getPosts({
@@ -89,7 +87,6 @@ export default async function Home() {
   })
   const projects = await getUnofficialProjects()
   const _topics = await getTopics()
-  const { tools } = await getUnofficialTools()
   const bookmarks = await getUnofficialBookmarks()
 
   const topics = _topics.map(topic => ({
