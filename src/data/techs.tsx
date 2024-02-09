@@ -4,6 +4,7 @@ import AngularIcon from '@/public/about/techs/angular.svg'
 import BashIcon from '@/public/about/techs/bash.svg'
 import BootstrapIcon from '@/public/about/techs/bootstrap.svg'
 import ChromeIcon from '@/public/about/techs/chrome.svg'
+import CppIcon from '@/public/about/techs/cpp.svg'
 import Detectron2Icon from '@/public/about/techs/detectron2.png'
 import DialogflowIcon from '@/public/about/techs/dialogflow.svg'
 import DockerIcon from '@/public/about/techs/docker.svg'
@@ -56,6 +57,7 @@ import VertexAIIcon from '@/public/about/techs/vertex.png'
 import ViteIcon from '@/public/about/techs/vite.svg'
 import VscodeIcon from '@/public/about/techs/vscode.svg'
 import WordpressIcon from '@/public/about/techs/wordpress.svg'
+
 import { StaticImageData } from 'next/image'
 
 export type TechItem = {
@@ -414,7 +416,13 @@ const techs: TechItem[] = [
     name: 'Wordpress',
     icon: WordpressIcon,
     url: 'https://wordpress.org/'
-  }
+  },
+  {
+    id: 'cpp',
+    name: 'C/C++',
+    icon: CppIcon,
+    url: 'https://cplusplus.com/'
+  },
 ]
 
 export default techs

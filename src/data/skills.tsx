@@ -4,61 +4,61 @@ const skills: SkillGroupType[] = [
   {
     id: 'languages',
     name: 'Languages',
-    list: ['freefempp', 'js', 'matlab', 'php', 'python', 'ts']
+    list: ['js', 'python', 'ts', 'cpp']
   },
-  {
-    id: 'ai-data',
-    name: 'AI & Data',
-    list: [
-      'airflow',
-      'detectron2',
-      'dialogflow',
-      'huggingface',
-      'jupyter',
-      'openai',
-      'pytorch',
-      'scikit-learn',
-      'tensorflow',
-      'vertex-ai'
-    ]
-  },
-  {
-    id: 'frontend',
-    name: 'Frontend',
-    list: [
-      'angular',
-      'bootstrap',
-      'eleventy',
-      'gatsby',
-      'html5',
-      'jekyll',
-      'liquid',
-      'nextjs',
-      'nunjucks',
-      'react',
-      'rxjs',
-      'scss',
-      'tailwindcss',
-      'vite',
-      'wordpress'
-    ]
-  },
+  // {
+  //   id: 'ai-data',
+  //   name: 'AI & Data',
+  //   list: [
+  //     'airflow',
+  //     'detectron2',
+  //     'dialogflow',
+  //     'huggingface',
+  //     'jupyter',
+  //     'openai',
+  //     'pytorch',
+  //     'scikit-learn',
+  //     'tensorflow',
+  //     'vertex-ai'
+  //   ]
+  // },
+  // {
+  //   id: 'frontend',
+  //   name: 'Frontend',
+  //   list: [
+  //     'angular',
+  //     'bootstrap',
+  //     'eleventy',
+  //     'gatsby',
+  //     'html5',
+  //     'jekyll',
+  //     'liquid',
+  //     'nextjs',
+  //     'nunjucks',
+  //     'react',
+  //     'rxjs',
+  //     'scss',
+  //     'tailwindcss',
+  //     'vite',
+  //     'wordpress'
+  //   ]
+  // },
   {
     id: 'backend',
     name: 'Backend',
     list: [
-      'airflow',
-      'docker',
-      'firebase',
-      'graphql',
-      'grpc',
-      'google-nodejs-api',
-      'jestjs',
-      'mongodb',
-      'mysql',
+      // 'airflow',
+      // 'docker',
+      // 'firebase',
+      // 'graphql',
+      // 'grpc',
+      // 'google-nodejs-api',
+      // 'jestjs',
+      // 'mongodb',
+      // 'mysql',
       'nestjs',
       'nodejs',
-      'vertex-ai'
+      // 'vertex-ai'
     ]
   },
   {
@@ -66,20 +66,20 @@ const skills: SkillGroupType[] = [
     name: 'Tools & Services',
     list: [
       'bash',
-      'chrome-extension',
-      'dialogflow',
-      'imgur',
-      'gcp',
+      // 'chrome-extension',
+      // 'dialogflow',
+      // 'imgur',
+      // 'gcp',
       'git',
-      'gitkraken',
-      'huggingface',
+      // 'gitkraken',
+      // 'huggingface',
       'latex',
-      'linkedin',
+      // 'linkedin',
       'linux',
       'notion',
-      'openai',
-      'postman',
-      'sphinx',
+      // 'openai',
+      // 'postman',
+      // 'sphinx',
       'vscode'
     ]
   }
